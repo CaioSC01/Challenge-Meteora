@@ -234,3 +234,182 @@ body {
 	flex-grow: 0;
 }
 
+.card0 {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	padding: 0px;
+
+	width: 160px;
+	height: 192px;
+
+	flex: none;
+	order: 0;
+	flex-grow: 0;
+
+
+}
+
+.card1 {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	padding: 0px;
+
+	width: 160px;
+	height: 192px;
+
+	flex: none;
+	order: 1;
+	flex-grow: 0;
+}
+
+.card2 {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	padding: 0px;
+
+	width: 160px;
+	height: 192px;
+
+
+
+
+	flex: none;
+	order: 2;
+	flex-grow: 0;
+}
+
+.card3 {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	padding: 0px;
+
+	width: 160px;
+	height: 192px;
+
+
+
+
+	flex: none;
+	order: 3;
+	flex-grow: 0;
+}
+
+.card4 {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	padding: 0px;
+
+	width: 160px;
+	height: 192px;
+
+
+
+
+	flex: none;
+	order: 4;
+	flex-grow: 0;
+}
+
+.card5 {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	padding: 0px;
+
+	width: 160px;
+	height: 192px;
+
+
+
+
+	flex: none;
+	order: 5;
+	flex-grow: 0;
+}
+
+.camisa {
+	width: 160px;
+	height: 157px;
+
+	flex: none;
+	order: 0;
+	align-self: stretch;
+	flex-grow: 0;
+}
+
+.card_text {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	padding: 8px 16px;
+
+	width: 160px;
+	height: 35px;
+
+	background: var(--black);
+	border-radius: 0px;
+
+
+	flex: none;
+	order: 1;
+	align-self: stretch;
+	flex-grow: 0;
+}
+
+.text {
+
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 19px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+
+	color: var(--white);
+
+	flex: none;
+	order: 0;
+	flex-grow: 0;
+}
+
+.produtos {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 0px;
+	gap: 30px;
+
+	position: absolute;
+	width: 1110px;
+	height: 1329px;
+	left: 165px;
+	top: 856px;
+}
+
+.headline_produtos {
+
+	width: 481px;
+	height: 39px;
+
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 32px;
+	line-height: 39px;
+
+	text-align: center;
+
+	color: #212529;
+
+	flex: none;
+	order: 0;
+	flex-grow: 0;
+}
