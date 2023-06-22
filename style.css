@@ -29,37 +29,9 @@ body {
 	--place: #6C757D;
 	/*cores desing cards*/
 	--verdeClaro: #DAff01;
-	--roxoClaro: #9353ff;
+	--roxoClaro: #8064b1;
 	/*Fontes de textos*/
 	--fonte-texto: "Inter", sans-serif;
-}
-
-
-.banner_carrosel {
-	Width: 100%;
-	Height: 415px;
-	Top: 56px;
-	position: absolute;
-	color: var(--white);
-}
-
-.icon {
-	position: absolute;
-	width: 18px;
-	height: 18px;
-	left: 37px;
-	top: calc(50% - 18px/2 + 0.5px);
-}
-
-.bx {
-
-	position: absolute;
-	width: 13.5px;
-	height: 18px;
-	left: 14.73px;
-	top: 17.95px;
-
-	/*transform: rotate(-180deg);*/
 }
 
 .categoria {

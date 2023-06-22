@@ -17,29 +17,38 @@
   </head>
   <body>
     <header class="cabecalho">
-      <div class="container_header">
-        <img
-          src="Assets projeto _ Loja Meteora/Desktop/Logo desktop.png"
-          alt="Logo meteora"
-          class="logo"
-        />
-        <a href="" class="link1">Home</a>
-        <a href="" class="link2">Nossa loja</a>
-        <a href="" class="link3">Novdades</a>
-        <a href="" class="link4">Promoções</a>
-      </div>
-      <input type="text" class="busca" placeholder="Buscar produto" />
-      <input type="button" class="botao_buscar" value="Buscar" />
+      <nav class="container_header">
+        <ul class="links">
+          <li>
+            <img
+              src="Assets projeto _ Loja Meteora/Desktop/Logo desktop.png"
+              alt="Logo meteora"
+              class="logo"
+            />
+          </li>
+          <li><a href="" class="link">Home</a></li>
+          <li><a href="" class="link">Nossa loja</a></li>
+          <li><a href="" class="link">Novidades</a></li>
+          <li><a href="" class="link">Promoções</a></li>
+        </ul>
+      </nav>
+      <nav>
+        <input type="text" class="busca" placeholder="Buscar produto" />
+        <input type="button" class="botao_buscar" value="Buscar" />
+      </nav>
     </header>
-    <div class="banner_carrosel">
-      <div class="icon">
-        <box-icon class="bx bx-left-arrow"></box-icon>
-      </div>
-      <img
-        src="Assets projeto _ Loja Meteora/Desktop/Banner carousel 1 _ 1440 (1).png"
-        alt="Banner"
-        class="banner"
-      />
+    <div class="main">
+      <section class="banner_carrosel">
+        <!-- <div class="icon">
+          <box-icon class="bx bx-left-arrow"></box-icon>
+        </div> -->
+        <div class="imagens_banner">
+          <!-- <img
+            src="Assets projeto _ Loja Meteora/Desktop/Banner carousel 1 _ 1440 (1).png"
+            alt="Banner"
+          /> -->
+        </div>
+      </section>
       <div class="categoria">
         <h3 class="headline">Busque por Categoria:</h3>
         <div class="container_categoria">
@@ -113,8 +122,6 @@
       </div>
       <div class="produtos">
         <h2 class="headline_produtos">Produtos que estão bombando!!</h2>
-
-				
       </div>
     </div>
   </body>
