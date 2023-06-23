@@ -1,0 +1,67 @@
+.newsletter {
+	display: flex;
+	width: 90rem;
+	height: 20.0625rem;
+	padding: 2.5rem 27.4375rem;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 1rem;
+	flex-shrink: 0;
+}
+
+.grade {
+	display: flex;
+	width: 45.5625rem;
+	padding: 2.5rem;
+	flex-direction: column;
+	align-items: center;
+
+	border: 2px solid #000;
+}
+
+.grade_input {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 1.5rem;
+}
+
+.text_news {
+	color: #212529;
+	text-align: center;
+	font-size: 1.25rem;
+	font-family: Inter;
+}
+
+.input_news {
+	display: flex;
+	width: 33.75rem;
+	height: 2.375rem;
+	flex-direction: column;
+	flex-shrink: 0;
+
+	color: #6C757D;
+
+	font-size: 1rem;
+	font-family: Inter;
+	line-height: 1.4375rem;
+}
+
+.retangulo {
+	width: 5.25rem;
+	height: 2.375rem;
+	flex-shrink: 0;
+
+	border: 1px solid #9353FF;
+	background: #9353FF;
+
+	color: #FFF;
+
+	font-size: 1rem;
+	font-family: Inter;
+	font-weight: 500;
+	letter-spacing: 0.02856rem;
+
+	margin-left: 456px;
+}

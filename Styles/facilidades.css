@@ -1,0 +1,59 @@
+.facilidades {
+	margin-top: 80%;
+	display: flex;
+	width: 100%;
+	padding: 2.5rem 27.4375rem;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 2.5rem;
+
+	background: #000;
+}
+
+.titulo_facilidade {
+	color: #FFF;
+	text-align: center;
+
+	font-size: 2rem;
+	font-family: Inter;
+	font-weight: 500;
+}
+
+.icones {
+	display: flex;
+	align-items: flex-start;
+	gap: 2rem;
+}
+
+.basic {
+	display: flex;
+	width: 19rem;
+	align-items: center;
+	gap: 1.5rem;
+
+}
+
+.sobre {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 1rem;
+}
+
+.titulo_texto {
+	color: var(--verdeClaro);
+
+	font-size: 1rem;
+	font-family: Inter;
+	font-weight: 700;
+	line-height: 1.4375rem;
+}
+
+.texto_facilidade {
+	color: #FFF;
+
+	font-size: 0.8125rem;
+	font-family: Inter;
+	line-height: 1.25rem;
+}

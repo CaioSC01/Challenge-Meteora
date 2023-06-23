@@ -1,0 +1,18 @@
+.footer {
+	display: flex;
+	width: 100%;
+	padding: 1.0625rem 1.4375rem;
+	justify-content: center;
+	align-items: flex-start;
+	gap: 0.625rem;
+
+	background: #000;
+}
+
+.text_footer {
+	color: #FFF;
+
+	font-size: 0.8125rem;
+	font-family: Inter;
+	line-height: 1.25rem;
+}
