@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
       rel="shortcut icon"
-      href="Assets projeto _ Loja Meteora/Favicon-64px.png"
+      href="imagens/Favicon-64px.png"
       type="image/x-icon"
     />
     <link
@@ -21,7 +21,7 @@
         <ul class="links">
           <li>
             <img
-              src="Assets projeto _ Loja Meteora/Desktop/Logo desktop.png"
+              src="imagens/Desktop/Logo desktop.png"
               alt="Logo meteora"
               class="logo"
             />
@@ -39,23 +39,15 @@
     </header>
     <div class="main">
       <section class="banner_carrosel">
-        <!-- <div class="icon">
-          <box-icon class="bx bx-left-arrow"></box-icon>
-        </div> -->
-        <div class="imagens_banner">
-          <!-- <img
-            src="Assets projeto _ Loja Meteora/Desktop/Banner carousel 1 _ 1440 (1).png"
-            alt="Banner"
-          /> -->
-        </div>
+        <img class="icon" src="imagens/icon-arrow-left.svg" />
       </section>
-      <div class="categoria">
-        <h3 class="headline">Busque por Categoria:</h3>
-        <div class="container_categoria">
-          <div class="card0">
-            <div class="camisa">
+      <section class="categoria">
+        <h3 class="titulo">Busque por Categoria:</h3>
+        <div class="cards">
+          <div>
+            <div class="card">
               <img
-                src="Assets projeto _ Loja Meteora/Desktop/Categorias/Categoria camiseta.png"
+                src="imagens/Desktop/Categorias/Categoria camiseta.png"
                 alt="imagem de uma camiseta"
               />
             </div>
@@ -63,10 +55,10 @@
               <h6 class="text">Camisetas</h6>
             </div>
           </div>
-          <div class="card1">
-            <div class="camisa">
+          <div>
+            <div class="card">
               <img
-                src="Assets projeto _ Loja Meteora/Desktop/Categorias/Categoria Bolsa.png"
+                src="imagens/Desktop/Categorias/Categoria Bolsa.png"
                 alt="imagem de uma camiseta"
               />
             </div>
@@ -74,10 +66,10 @@
               <h6 class="text">Bolsas</h6>
             </div>
           </div>
-          <div class="card2">
-            <div class="camisa">
+          <div>
+            <div class="card">
               <img
-                src="Assets projeto _ Loja Meteora/Desktop/Categorias/Categoria calça.png"
+                src="imagens/Desktop/Categorias/Categoria calça.png"
                 alt="imagem de uma camiseta"
               />
             </div>
@@ -85,10 +77,10 @@
               <h6 class="text">Calças</h6>
             </div>
           </div>
-          <div class="card3">
-            <div class="camisa">
+          <div>
+            <div class="card">
               <img
-                src="Assets projeto _ Loja Meteora/Desktop/Categorias/Categoria Calçados.png"
+                src="imagens/Desktop/Categorias/Categoria Calçados.png"
                 alt="imagem de uma camiseta"
               />
             </div>
@@ -97,9 +89,9 @@
             </div>
           </div>
           <div class="card4">
-            <div class="camisa">
+            <div class="card">
               <img
-                src="Assets projeto _ Loja Meteora/Desktop/Categorias/Categoria casacos.png"
+                src="imagens/Desktop/Categorias/Categoria casacos.png"
                 alt="imagem de uma camiseta"
               />
             </div>
@@ -108,9 +100,9 @@
             </div>
           </div>
           <div class="card5">
-            <div class="camisa">
+            <div class="card">
               <img
-                src="Assets projeto _ Loja Meteora/Desktop/Categorias/Categoria óculos.png"
+                src="imagens/Desktop/Categorias/Categoria óculos.png"
                 alt="imagem de uma camiseta"
               />
             </div>
@@ -119,10 +111,102 @@
             </div>
           </div>
         </div>
-      </div>
-      <div class="produtos">
-        <h2 class="headline_produtos">Produtos que estão bombando!!</h2>
-      </div>
+      </section>
+      <section class="produtos">
+        <h3 class="titulo_produto">Produtos que estão bombando!!</h3>
+        <section class="cards_produtos_um">
+          <div class="card_produto">
+            <img
+              class="image"
+              src="imagens/Desktop/Imagens Cards/Camiseta.png"
+            />
+            <div class="card_titulo">Camiseta Conforto</div>
+            <div>
+              <p class="card_text_produto">
+                Multicores e tamanhos. Tecido de algodão 100%, fresquinho para o
+                verão. Modelagem unissex.
+              </p>
+              <p class="valor">R$ 70,00</p>
+            </div>
+            <div class="card_botton">
+              <input type="button" value="ver mais" class="Botao_ver_mais" />
+            </div>
+          </div>
+          <div class="card_produto">
+            <img class="image" src="imagens/Desktop/Imagens Cards/Calça.png" />
+            <div class="card_titulo">Calça Alfaiataria</div>
+            <div>
+              <p class="card_text_produto">
+                Modelo Wide Leg alfaiataria em linho. Uma peça pra vida toda!
+              </p>
+              <p class="valor">R$ 180,00</p>
+            </div>
+            <div class="card_botton">
+              <input type="button" value="ver mais" class="Botao_ver_mais" />
+            </div>
+          </div>
+          <div class="card_produto">
+            <img class="image" src="imagens/Desktop/Imagens Cards/Tenis.png" />
+            <div class="card_titulo">Tênis Chunky</div>
+            <div>
+              <p class="card_text_produto">
+                Snicker casual com solado mais alto e modelagem robusta. Modelo
+                unissex.
+              </p>
+              <p class="valor">R$ 250,00</p>
+            </div>
+            <div class="card_botton">
+              <input type="button" value="ver mais" class="Botao_ver_mais" />
+            </div>
+          </div>
+        </section>
+        <section class="cards_produtos_um">
+          <div class="card_produto">
+            <img
+              class="image"
+              src="imagens/Desktop/Imagens Cards/Jaqueta.png"
+            />
+            <div class="card_titulo">Jaqueta Jeans</div>
+            <div>
+              <p class="card_text_produto">
+                Modelo unissex oversized com gola de camurça. Atemporal e
+                autêntica!
+              </p>
+              <p class="valor">R$ 150,00</p>
+            </div>
+            <div class="card_botton">
+              <input type="button" value="ver mais" class="Botao_ver_mais" />
+            </div>
+          </div>
+          <div class="card_produto">
+            <img class="image" src="imagens/Desktop/Imagens Cards/óculos.png" />
+            <div class="card_titulo">Óculos Redondo</div>
+            <div>
+              <p class="card_text_produto">
+                Armação metálica em grafite com lentes arredondadas. Sem erro!
+              </p>
+              <p class="valor">R$ 120,00</p>
+            </div>
+            <div class="card_botton">
+              <input type="button" value="ver mais" class="Botao_ver_mais" />
+            </div>
+          </div>
+          <div class="card_produto">
+            <img class="image" src="imagens/Desktop/Imagens Cards/Bolsa.png" />
+            <div class="card_titulo">Bolsa coringa</div>
+            <div>
+              <p class="card_text_produto">
+                Bolsa camel em couro sintético de alta duração. Ideal para
+                acompanhar você por uma vida!
+              </p>
+              <p class="valor">R$ 120,00</p>
+            </div>
+            <div class="card_botton">
+              <input type="button" value="ver mais" class="Botao_ver_mais" />
+            </div>
+          </div>
+        </section>
+      </section>
     </div>
   </body>
 </html>
